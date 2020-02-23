@@ -1,0 +1,3 @@
+AppIcon ICON "git-icon.ico"
+
+#include "wx/msw/wx.rc"
