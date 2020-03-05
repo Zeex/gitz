@@ -1,13 +1,14 @@
+#include "git-icon.xpm"
 #include "GitzFrame.h"
 
-enum
-{
+enum {
     ID_Hello = 1
 };
 
 GitzFrame::GitzFrame()
     : wxFrame(NULL, wxID_ANY, wxApp::GetInstance()->GetAppDisplayName())
 {
+    const char **AppIcon_xpm = git_icon;
     SetIcon(wxICON(AppIcon));
 
     wxMenu *menuFile = new wxMenu;
