@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource>
+      <file>../icons/git-icon.ico</file>
+      <file>../icons/git-icon.png</file>
+  </qresource>
+</RCC>

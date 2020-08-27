@@ -1,4 +1,4 @@
-#include "git-icon.xpm"
+#include "../icons/git-icon.xpm"
 #include "GitzFrame.h"
 
 enum {

@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Gitz (Package)", "Gitz\Gitz (Package)\Gitz (Package).wapproj", "{79383A28-0850-4E18-8A87-D32CC5C93A43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gitz", "Gitz\Gitz\Gitz.vcxproj", "{36471A3B-553D-4DC5-83B9-C0480D89D9E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C406759-EAD4-4E90-B28C-B2F9C74B908E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gitz.Shared", "Gitz.Shared\Gitz.Shared.vcxproj", "{3724DEF2-E4D0-4D61-B55B-005856BB001B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|ARM.ActiveCfg = Debug|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x64.ActiveCfg = Debug|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x64.Build.0 = Debug|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x64.Deploy.0 = Debug|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x86.ActiveCfg = Debug|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x86.Build.0 = Debug|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Debug|x86.Deploy.0 = Debug|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|ARM.ActiveCfg = Release|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x64.ActiveCfg = Release|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x64.Build.0 = Release|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x64.Deploy.0 = Release|x64
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x86.ActiveCfg = Release|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x86.Build.0 = Release|x86
+		{79383A28-0850-4E18-8A87-D32CC5C93A43}.Release|x86.Deploy.0 = Release|x86
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Debug|ARM.ActiveCfg = Debug|Win32
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Debug|x64.ActiveCfg = Debug|x64
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Debug|x64.Build.0 = Debug|x64
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Debug|x86.ActiveCfg = Debug|Win32
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Debug|x86.Build.0 = Debug|Win32
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Release|ARM.ActiveCfg = Release|Win32
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Release|x64.ActiveCfg = Release|x64
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Release|x64.Build.0 = Release|x64
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Release|x86.ActiveCfg = Release|Win32
+		{36471A3B-553D-4DC5-83B9-C0480D89D9E8}.Release|x86.Build.0 = Release|Win32
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|ARM.Build.0 = Debug|ARM
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|x64.ActiveCfg = Debug|x64
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|x64.Build.0 = Debug|x64
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|x86.ActiveCfg = Debug|Win32
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Debug|x86.Build.0 = Debug|Win32
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|ARM.ActiveCfg = Release|ARM
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|ARM.Build.0 = Release|ARM
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|x64.ActiveCfg = Release|x64
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|x64.Build.0 = Release|x64
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|x86.ActiveCfg = Release|Win32
+		{3724DEF2-E4D0-4D61-B55B-005856BB001B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E6AFF1D-CE04-48A3-8003-C473FD202BBC}
+	EndGlobalSection
+EndGlobal

@@ -3,7 +3,8 @@
 #include "GitzApp.h"
 #include "GitzFrame.h"
 
-bool CheckGitResult(int result, const wxString &message) {
+bool CheckGitResult(int result, const wxString &message)
+{
     if (result != 0) {
         wxMessageBox((message + ": ") + git_error_last()->message, "Error", wxOK | wxICON_ERROR);
         return false;
